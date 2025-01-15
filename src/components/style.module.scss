@@ -4,7 +4,7 @@
 header {
     font-family: "Great Vibes", sans-serif;
     color: white;
-    background-color: darkred;
+    background-color: #8B1414;
     background-image: url(../assets/fundoHeader.png);
     background-repeat: no-repeat;
     background-position: center;
@@ -32,5 +32,49 @@ header {
 }
 
 main{
-    
+    .imgPrincipal{
+        img{
+            width: 100%;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+    }
+    .origemBox{
+        background-color: #8B1414;
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url("../assets/fundoHeader.png");
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        p{
+            color: white;
+            width: 70%;
+            font-size: 25px;
+        }
+    }
+    .imagensBox{
+        background-color: #F2E2C4;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+}
+
+footer{
+    background-color: #8B1414;
+    background-image: url("../assets/fundoHeader.png");
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    div{
+        width: 12%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    nav{
+        text-align: center;
+        font-size: 25px;
+    }
 }
