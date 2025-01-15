@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+
+header {
+    font-family: "Great Vibes", sans-serif;
+    color: white;
+    background-color: darkred;
+    background-image: url(../assets/fundoHeader.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    nav{
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        h1{
+            font-size: 35px;
+            font-weight: lighter;
+        }
+        ul{
+            width: 40%;
+            font-size: 35px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+        }
+    }
+}
+
+main{
+    
+}
